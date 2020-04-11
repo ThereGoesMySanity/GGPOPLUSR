@@ -64,9 +64,13 @@ To build and run GGPOPLUSR:
 ### Running on Linux
 As of right now, there is no way to compile GGPOPLUSR on Linux, so in order to run it you will need to compile it yourself on Windows first or download a release. The Debug target will not run in Linux.
 Once you have this, there are two ways to  run it.
+
  * Run Steam through Wine
+
 Once you have an instance of Steam running through Wine, you just need to run Launcher.exe in the same prefix.
+
  * Use Proton
+
 Change the GGPOPLUSR_DIR variable in ggpoplusr.sh to the location of your compiled GGPOPLUSR build, place it in your +R install directory, and set the Steam launch options to `./ggpoplusr.sh %command%`.
 
 ## Why GGPO? Why +R? Why now?
