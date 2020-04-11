@@ -61,7 +61,7 @@ To build and run GGPOPLUSR:
 3. At CMake configure step, point the vcredist_86_exe variable to the Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019 installer program for x86 (vcredist.x86.exe). If you cannot locate it in your Visual Studio installation folder, you can [get it from Microsoft](https://support.microsoft.com/help/2977003/the-latest-supported-visual-c-downloads).
 4. Open the solution in Visual Studio and build the PACKAGE project to generate the installer.
 
-# Running on Linux
+### Running on Linux
 As of right now, there is no way to compile GGPOPLUSR on Linux, so in order to run it you will need to compile it yourself on Windows first or download a release. The Debug target will not run in Linux.
 Once you have this, there are two ways to  run it.
  * Run Steam through Wine
